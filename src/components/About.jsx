@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a CSE major with strong foundation in full-stack web development, specializing in React, PostgreSQL, and modern JavaScript frameworks. I have hands-on experience in building collaborative platforms and AI-integrated applications. Currently serving as an MLSA Web Lead, I combine technical expertise with leadership skills to deliver innovative solutions. I'm passionate about creating efficient, user-friendly applications that solve real-world problems. Let's work together to bring your ideas to life!
+        I'm a Computer Science & Engineering major with expertise in modern web technologies and full-stack development. Proficient in React, PostgreSQL, and JavaScript, I've built several impactful projects  during my academic as well as personal endeavour.  I combine my technical skills with a passion for creating practical, user-centric solutions that address real-world challenges. Currently exploring opportunities to apply my skills in developing impactful web applications.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
