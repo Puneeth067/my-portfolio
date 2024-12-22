@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A237E"/>
+      <stop offset="50%" style="stop-color:#283593"/>
+      <stop offset="100%" style="stop-color:#3949AB"/>
+    </linearGradient>
+    
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFD700"/>
+      <stop offset="100%" style="stop-color:#FFA726"/>
+    </linearGradient>
+    
+    <!-- Clip path for abstract shapes -->
+    <clipPath id="clipShape">
+      <path d="M200,50 L350,200 L200,350 L50,200 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background layers -->
+  <rect x="50" y="50" width="300" height="300" rx="60" fill="url(#mainGradient)"/>
+  <path d="M80,80 L320,320 M320,80 L80,320" 
+        stroke="rgba(255,255,255,0.1)" stroke-width="40"/>
+
+  <!-- Main P shape with modern styling -->
+  <path d="
+    M140 120
+    L140 300
+    Q140 310 150 310
+    L170 310
+    Q180 310 180 300
+    L180 120
+    Q180 110 170 110
+    L150 110
+    Q140 110 140 120
+    Z
+    M180 110
+    Q180 110 190 110
+    L250 110
+    Q290 110 290 150
+    L290 190
+    Q290 230 250 230
+    L190 230
+    Q180 230 180 220
+    Z" 
+    fill="white"/>
+
+  <!-- Decorative elements -->
+  <circle cx="235" cy="170" r="25" fill="url(#accentGradient)"/>
+  
+  <!-- Abstract accent shapes -->
+  <path d="M260,140 Q280,170 260,200" 
+        stroke="white" stroke-width="3" fill="none"/>
+  <path d="M120,260 Q140,280 120,300" 
+        stroke="white" stroke-width="3" fill="none"/>
+  
+  <!-- Modern geometric accents -->
+  <rect x="90" y="90" width="20" height="3" fill="white" transform="rotate(45, 100, 91.5)"/>
+  <rect x="290" y="290" width="20" height="3" fill="white" transform="rotate(-45, 300, 291.5)"/>
+  
+  <!-- Subtle overlay pattern -->
+  <path d="M50,200 L350,200 M200,50 L200,350" 
+        stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+</svg>
