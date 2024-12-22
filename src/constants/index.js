@@ -154,6 +154,7 @@ const experiences = [
     date: "October 9, 2023 - November 4, 2023",
     points: [
       "Completed internship program focused on Sentiment Analysis.",
+      "Involved in collecting and cleaning data (removing noise, special characters, URLs, and stopwords), normalizing it (lowercasing, expanding contractions, handling negations, and correcting spelling), tokenizing, applying stemming or lemmatization, managing emojis and imbalanced datasets, extracting features (using methods like Bag of Words, TF-IDF, or embeddings), and splitting the processed data into training, validation, and testing sets."
     ],
     icon: novigo,
   },
